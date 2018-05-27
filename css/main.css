@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	color: black;
+}
+.centered {
+	text-align: center;
+}
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	text-align: center;
+}
+
+.first-page {
+	background-image: url(../img/page.png);
+	height: 970px;
+	width: 100%;
+}
+
+.sandwich div {
+	height: 2px;
+	color: black;
+}
+
+.sandwich {
+	display: block;
+}
+
+.pages {
+	display: block;
+	width: 100%;
+}
+
+.first-page {
+	position: absolute;
+}
+
+.pages > ul > li {
+	display: inline-block;
+}
+
+.pages li {
+	font-weight: 700;
+	font-size: 20px;
+	padding: 15px;
+	color: white;
+	float: center;
+}
+
+#my-menu a {
+	color: gray;
+}
+
+#my-menu {
+	margin-top: 310px;
+	padding-right: 20px;
+	display: block;
+}
+
+#my-menu ul > li {
+	list-style-type: none;
+}
+
+#my-menu a:hover, a:focus {
+	color: black;
+	text-decoration: none;
+}
+
+.active {
+	border-bottom: 3px solid red;
+	width: 100px;
+}
+
+.active li {
+	color: black;
+}
+
+#my-menu > ul > li > a.a-active {
+	color: black;
+}
+
+#my-menu li {
+	line-height: 17px;
+}
+
+.container {
+	background-image: url(../img/wallpaper10.png);
+	height: 970px;
+	width: 100%;
+}
+
+.info {
+	float: right;
+}
+
+.info p {
+	font-size: 30px;
+	color: black;
+	font-weight: 100%;
+}
+
+.info h1 {
+	margin-top: -160px;
+	font-weight: 700;
+}
+
+.info {
+	padding-left: 215px;
+}
+
+.info p {
+	padding-left: 30px;
+}
+
+hr {
+	background-color: black;
+	color: black;
+	height: 3px;
+	border-radius: 3deg;
+}
+
+h3 {
+	padding-left: 50px;
+}
+
+.info h3 {
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.info p {
+	text-indent: 30px;
+}
+
+.info {
+	margin-top: -15px;
+	padding-right: 63px;
+}
+
+.form > .pages {
+	background-image: url(../img/contacts.png);
+	height: 970px;
+	width: 100%;
+	position: absolute;
+}
+
+.more-details {
+	float: center;
+	display: block;
+}
+
+.information {
+	position: absolute;
+	margin-top: 410px;
+    padding-left: 539px;
+}
+
+.information img {
+	padding-left: 20px;
+    padding-right: 20px;
+}
+
+.links img {
+	height: 62px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.links {
+	margin-top: 370px;
+	padding-left: 30px;
+}
+
+.links img:hover, img:focus {
+	color: red;
+	transition: 0.3s;
+}
+
+i {
+font-family: fontawesome !important;
+}

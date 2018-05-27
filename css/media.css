@@ -1,0 +1,69 @@
+/*
+ * Author: http://stuffandnonsense.co.uk/blog/about/hardboiled_css3_media_queries/
+ */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	.first-page {
+		background-image: url(../img/media1.png);
+		background-size: cover;
+		height: 100%;
+	}
+	#my-menu {
+		margin-top: 530px;
+	}
+	#my-menu a {
+		font-size: 45px;
+	}
+	#my-menu li {
+		line-height: 65px;
+	}
+	.form > .pages {
+		background-image: url(../img/media3.png);
+		background-size: cover;
+		height: 100%;
+	}
+	.information {
+		display: none;
+	}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 320px), (min-height: 420px) {
+	
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px), (max-height: 480px) {
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@mediaonly screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
