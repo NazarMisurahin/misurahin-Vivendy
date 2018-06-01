@@ -63,7 +63,7 @@
 	background-size: cover;
 	height: 800px;
 }
-.info h1, h2, h3, p {
+.info h1, h2, p {
 	font-size: 20px;
 }
 .info {
@@ -94,7 +94,7 @@
 }
 
 /* Large screens ----------- */
-@media only screen and (min-width : 1824px) {
+@media only screen and (min-device-width : 1824px) {
 /* Styles */
 }
 
