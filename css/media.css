@@ -10,7 +10,7 @@
 		height: 100%;
 	}
 	#my-menu {
-		margin-top: 530px;
+		margin-top: 430px;
 	}
 	#my-menu a {
 		font-size: 45px;
@@ -19,12 +19,15 @@
 		line-height: 65px;
 	}
 	.form > .pages {
-		background-image: url(../img/media3.png);
+		background-image: url(../img/media4.png);
 		background-size: cover;
 		height: 100%;
 	}
 	.information {
 		display: none;
+	}
+	.details {
+		float: right;
 	}
 }
 
@@ -54,8 +57,40 @@
 }
 
 /* Desktops and laptops ----------- */
-@media only screen and (min-width : 1224px) {
-/* Styles */
+@media only screen and (min-device-width : 1224px) and (max-device-width : 1280px){
+.container {
+	background-image: url(../img/laptop.png);
+	background-size: cover;
+	height: 800px;
+}
+.info h1, h2, h3, p {
+	font-size: 20px;
+}
+.info {
+	margin-top: -50px;
+	padding-right: 100px;
+}
+.first-page {
+	background-image: url(../img/laptop2.png);
+	background-size: cover;
+	height: 800px;
+}
+.form > .pages {
+	background-image: url(../img/laptop3.png)
+	background-size: cover;
+	height: 800px;
+}
+.information {
+	position: absolute;
+	margin-top: 270px;
+	padding-left: 322px;
+}
+.information h1 {
+	font-size: 25px;
+}
+.information img {
+	height: 30px;
+}
 }
 
 /* Large screens ----------- */
@@ -64,6 +99,6 @@
 }
 
 /* iPhone 4 ----------- */
-@mediaonly screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
 /* Styles */
 }
